@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CircleCommentView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cPU-Vc-Jtu" customClass="PlaceholderTextView">
+                    <rect key="frame" x="16" y="6" width="266" height="32"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="32" id="Rl5-HY-rVe"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="Rl5-HY-rVe"/>
+                        </mask>
+                    </variation>
+                </textView>
+                <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eVq-41-HdJ">
+                    <rect key="frame" x="292" y="8" width="67" height="30"/>
+                    <color key="backgroundColor" red="0.94509803920000002" green="0.94509803920000002" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="67" id="ftV-hk-Etm"/>
+                        <constraint firstAttribute="height" constant="30" id="n41-M4-1l2"/>
+                    </constraints>
+                    <state key="normal" title="发送"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="sendCommentClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="qRC-EG-kiH"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.96078431372549022" green="0.97254901960784312" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="cPU-Vc-Jtu" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="ALQ-2W-dbP"/>
+                <constraint firstAttribute="bottom" secondItem="cPU-Vc-Jtu" secondAttribute="bottom" constant="6" id="Ezd-7b-foR"/>
+                <constraint firstItem="cPU-Vc-Jtu" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="6" id="KZD-J8-Wae"/>
+                <constraint firstItem="eVq-41-HdJ" firstAttribute="leading" secondItem="cPU-Vc-Jtu" secondAttribute="trailing" constant="10" id="Rlu-Vi-auj"/>
+                <constraint firstItem="eVq-41-HdJ" firstAttribute="bottom" secondItem="cPU-Vc-Jtu" secondAttribute="bottom" id="gOf-FT-3ao"/>
+                <constraint firstAttribute="trailing" secondItem="eVq-41-HdJ" secondAttribute="trailing" constant="16" id="iqX-be-0Ew"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="commentLable" destination="cPU-Vc-Jtu" id="0PH-mw-gmC"/>
+                <outlet property="commentSendBtn" destination="eVq-41-HdJ" id="0Sm-Xb-xQ5"/>
+                <outlet property="hightConstan" destination="Rl5-HY-rVe" id="fzW-zD-GhS"/>
+            </connections>
+            <point key="canvasLocation" x="-126" y="66"/>
+        </view>
+    </objects>
+</document>

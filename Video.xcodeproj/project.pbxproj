@@ -15,6 +15,36 @@
 		1C1E34661F00B61B00D007E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C1E34641F00B61B00D007E7 /* LaunchScreen.storyboard */; };
 		1C1E34711F00B61C00D007E7 /* VideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1E34701F00B61C00D007E7 /* VideoTests.m */; };
 		1C1E347C1F00B61C00D007E7 /* VideoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1E347B1F00B61C00D007E7 /* VideoUITests.m */; };
+		1C29A9751F01EE7B009E8D39 /* FindShowBarCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C29A9601F01EE7B009E8D39 /* FindShowBarCollectionViewCell.m */; };
+		1C29A9761F01EE7B009E8D39 /* FindShowBarCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C29A9611F01EE7B009E8D39 /* FindShowBarCollectionViewCell.xib */; };
+		1C29A9771F01EE7B009E8D39 /* FindShowBarCommentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C29A9631F01EE7B009E8D39 /* FindShowBarCommentTableViewCell.m */; };
+		1C29A9781F01EE7B009E8D39 /* FindShowBarCommentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C29A9641F01EE7B009E8D39 /* FindShowBarCommentTableViewCell.xib */; };
+		1C29A9791F01EE7B009E8D39 /* FindShowBarDetialHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C29A9651F01EE7B009E8D39 /* FindShowBarDetialHeader.xib */; };
+		1C29A97A1F01EE7B009E8D39 /* FindShowBarDetialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C29A9671F01EE7B009E8D39 /* FindShowBarDetialViewController.m */; };
+		1C29A97B1F01EE7B009E8D39 /* FindShowBarDetialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C29A9681F01EE7B009E8D39 /* FindShowBarDetialViewController.xib */; };
+		1C29A97C1F01EE7B009E8D39 /* FindShowBarFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C29A96A1F01EE7B009E8D39 /* FindShowBarFlowLayout.m */; };
+		1C29A97D1F01EE7B009E8D39 /* FindShowBarLiveTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C29A96C1F01EE7B009E8D39 /* FindShowBarLiveTableViewCell.m */; };
+		1C29A97E1F01EE7B009E8D39 /* FindShowBarLiveTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C29A96D1F01EE7B009E8D39 /* FindShowBarLiveTableViewCell.xib */; };
+		1C29A97F1F01EE7B009E8D39 /* FindShowbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C29A96F1F01EE7B009E8D39 /* FindShowbarViewController.m */; };
+		1C29A9801F01EE7B009E8D39 /* ShowBarCommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C29A9711F01EE7B009E8D39 /* ShowBarCommentModel.m */; };
+		1C29A9811F01EE7B009E8D39 /* SubCommentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C29A9731F01EE7B009E8D39 /* SubCommentTableViewCell.m */; };
+		1C29A9821F01EE7B009E8D39 /* SubCommentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C29A9741F01EE7B009E8D39 /* SubCommentTableViewCell.xib */; };
+		1C29A98A1F01EF35009E8D39 /* CircleCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C29A9881F01EF35009E8D39 /* CircleCommentView.m */; };
+		1C29A98B1F01EF35009E8D39 /* CircleCommentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C29A9891F01EF35009E8D39 /* CircleCommentView.xib */; };
+		1C6427F61F2EC6AF001ED72F /* PlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6427F51F2EC6AF001ED72F /* PlaceholderTextView.m */; };
+		1C6428021F2EC971001ED72F /* LabelItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6427FA1F2EC971001ED72F /* LabelItemCollectionViewCell.m */; };
+		1C6428031F2EC971001ED72F /* LabelItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C6427FB1F2EC971001ED72F /* LabelItemCollectionViewCell.xib */; };
+		1C6428041F2EC971001ED72F /* LeftAlignmentFlowout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6427FD1F2EC971001ED72F /* LeftAlignmentFlowout.m */; };
+		1C6428051F2EC971001ED72F /* TagCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6427FF1F2EC971001ED72F /* TagCollectionViewController.m */; };
+		1C6428061F2EC971001ED72F /* TagViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6428011F2EC971001ED72F /* TagViewViewController.m */; };
+		1C64280A1F2EC9E4001ED72F /* ScrollAndTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6428091F2EC9E4001ED72F /* ScrollAndTableViewController.m */; };
+		1C6428111F2ECB06001ED72F /* WebWithHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6428101F2ECB06001ED72F /* WebWithHeaderViewController.m */; };
+		1C6428141F2ECBB0001ED72F /* WebHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6428131F2ECBB0001ED72F /* WebHeaderView.m */; };
+		1C6428161F2ECBC7001ED72F /* WebHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C6428151F2ECBC7001ED72F /* WebHeaderView.xib */; };
+		1C6428191F2EE2AA001ED72F /* file.html in Resources */ = {isa = PBXBuildFile; fileRef = 1C6428171F2EE2AA001ED72F /* file.html */; };
+		1C64281A1F2EE2AA001ED72F /* myH5.html in Resources */ = {isa = PBXBuildFile; fileRef = 1C6428181F2EE2AA001ED72F /* myH5.html */; };
+		1C64281C1F2EE2C0001ED72F /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C64281B1F2EE2C0001ED72F /* JavaScriptCore.framework */; };
+		EBA5156692D34B8288105FEA /* Pods_Video.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994354B8D8EF5004B7E235C3 /* Pods_Video.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +65,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00B8F3C9306DBB1B8BE5E0D1 /* Pods-Video.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Video.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Video/Pods-Video.debug.xcconfig"; sourceTree = "<group>"; };
 		1C1E34531F00B61B00D007E7 /* Video.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Video.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C1E34571F00B61B00D007E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1C1E34591F00B61B00D007E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +82,55 @@
 		1C1E34771F00B61C00D007E7 /* VideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C1E347B1F00B61C00D007E7 /* VideoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoUITests.m; sourceTree = "<group>"; };
 		1C1E347D1F00B61C00D007E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C29A95F1F01EE7B009E8D39 /* FindShowBarCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindShowBarCollectionViewCell.h; sourceTree = "<group>"; };
+		1C29A9601F01EE7B009E8D39 /* FindShowBarCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindShowBarCollectionViewCell.m; sourceTree = "<group>"; };
+		1C29A9611F01EE7B009E8D39 /* FindShowBarCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FindShowBarCollectionViewCell.xib; sourceTree = "<group>"; };
+		1C29A9621F01EE7B009E8D39 /* FindShowBarCommentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindShowBarCommentTableViewCell.h; sourceTree = "<group>"; };
+		1C29A9631F01EE7B009E8D39 /* FindShowBarCommentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindShowBarCommentTableViewCell.m; sourceTree = "<group>"; };
+		1C29A9641F01EE7B009E8D39 /* FindShowBarCommentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FindShowBarCommentTableViewCell.xib; sourceTree = "<group>"; };
+		1C29A9651F01EE7B009E8D39 /* FindShowBarDetialHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FindShowBarDetialHeader.xib; sourceTree = "<group>"; };
+		1C29A9661F01EE7B009E8D39 /* FindShowBarDetialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindShowBarDetialViewController.h; sourceTree = "<group>"; };
+		1C29A9671F01EE7B009E8D39 /* FindShowBarDetialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindShowBarDetialViewController.m; sourceTree = "<group>"; };
+		1C29A9681F01EE7B009E8D39 /* FindShowBarDetialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FindShowBarDetialViewController.xib; sourceTree = "<group>"; };
+		1C29A9691F01EE7B009E8D39 /* FindShowBarFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindShowBarFlowLayout.h; sourceTree = "<group>"; };
+		1C29A96A1F01EE7B009E8D39 /* FindShowBarFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindShowBarFlowLayout.m; sourceTree = "<group>"; };
+		1C29A96B1F01EE7B009E8D39 /* FindShowBarLiveTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindShowBarLiveTableViewCell.h; sourceTree = "<group>"; };
+		1C29A96C1F01EE7B009E8D39 /* FindShowBarLiveTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindShowBarLiveTableViewCell.m; sourceTree = "<group>"; };
+		1C29A96D1F01EE7B009E8D39 /* FindShowBarLiveTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FindShowBarLiveTableViewCell.xib; sourceTree = "<group>"; };
+		1C29A96E1F01EE7B009E8D39 /* FindShowbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindShowbarViewController.h; sourceTree = "<group>"; };
+		1C29A96F1F01EE7B009E8D39 /* FindShowbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindShowbarViewController.m; sourceTree = "<group>"; };
+		1C29A9701F01EE7B009E8D39 /* ShowBarCommentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowBarCommentModel.h; sourceTree = "<group>"; };
+		1C29A9711F01EE7B009E8D39 /* ShowBarCommentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowBarCommentModel.m; sourceTree = "<group>"; };
+		1C29A9721F01EE7B009E8D39 /* SubCommentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubCommentTableViewCell.h; sourceTree = "<group>"; };
+		1C29A9731F01EE7B009E8D39 /* SubCommentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubCommentTableViewCell.m; sourceTree = "<group>"; };
+		1C29A9741F01EE7B009E8D39 /* SubCommentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubCommentTableViewCell.xib; sourceTree = "<group>"; };
+		1C29A9871F01EF35009E8D39 /* CircleCommentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleCommentView.h; sourceTree = "<group>"; };
+		1C29A9881F01EF35009E8D39 /* CircleCommentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleCommentView.m; sourceTree = "<group>"; };
+		1C29A9891F01EF35009E8D39 /* CircleCommentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CircleCommentView.xib; sourceTree = "<group>"; };
+		1C29A98C1F01EFFC009E8D39 /* PlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceholderTextView.h; sourceTree = "<group>"; };
+		1C29A98E1F01F231009E8D39 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = Video/PrefixHeader.pch; sourceTree = "<group>"; };
+		1C6427F51F2EC6AF001ED72F /* PlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceholderTextView.m; sourceTree = "<group>"; };
+		1C6427F91F2EC971001ED72F /* LabelItemCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelItemCollectionViewCell.h; sourceTree = "<group>"; };
+		1C6427FA1F2EC971001ED72F /* LabelItemCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelItemCollectionViewCell.m; sourceTree = "<group>"; };
+		1C6427FB1F2EC971001ED72F /* LabelItemCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelItemCollectionViewCell.xib; sourceTree = "<group>"; };
+		1C6427FC1F2EC971001ED72F /* LeftAlignmentFlowout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftAlignmentFlowout.h; sourceTree = "<group>"; };
+		1C6427FD1F2EC971001ED72F /* LeftAlignmentFlowout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftAlignmentFlowout.m; sourceTree = "<group>"; };
+		1C6427FE1F2EC971001ED72F /* TagCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagCollectionViewController.h; sourceTree = "<group>"; };
+		1C6427FF1F2EC971001ED72F /* TagCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagCollectionViewController.m; sourceTree = "<group>"; };
+		1C6428001F2EC971001ED72F /* TagViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagViewViewController.h; sourceTree = "<group>"; };
+		1C6428011F2EC971001ED72F /* TagViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagViewViewController.m; sourceTree = "<group>"; };
+		1C6428081F2EC9E4001ED72F /* ScrollAndTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollAndTableViewController.h; sourceTree = "<group>"; };
+		1C6428091F2EC9E4001ED72F /* ScrollAndTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollAndTableViewController.m; sourceTree = "<group>"; };
+		1C64280F1F2ECB06001ED72F /* WebWithHeaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebWithHeaderViewController.h; sourceTree = "<group>"; };
+		1C6428101F2ECB06001ED72F /* WebWithHeaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebWithHeaderViewController.m; sourceTree = "<group>"; };
+		1C6428121F2ECBB0001ED72F /* WebHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebHeaderView.h; sourceTree = "<group>"; };
+		1C6428131F2ECBB0001ED72F /* WebHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebHeaderView.m; sourceTree = "<group>"; };
+		1C6428151F2ECBC7001ED72F /* WebHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebHeaderView.xib; sourceTree = "<group>"; };
+		1C6428171F2EE2AA001ED72F /* file.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = file.html; sourceTree = "<group>"; };
+		1C6428181F2EE2AA001ED72F /* myH5.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = myH5.html; sourceTree = "<group>"; };
+		1C64281B1F2EE2C0001ED72F /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		994354B8D8EF5004B7E235C3 /* Pods_Video.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Video.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD49EE39962597F41458EBB /* Pods-Video.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Video.release.xcconfig"; path = "Pods/Target Support Files/Pods-Video/Pods-Video.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +138,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C64281C1F2EE2C0001ED72F /* JavaScriptCore.framework in Frameworks */,
+				EBA5156692D34B8288105FEA /* Pods_Video.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +160,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02990C7A9C5F5AF45BEC8F7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C64281B1F2EE2C0001ED72F /* JavaScriptCore.framework */,
+				994354B8D8EF5004B7E235C3 /* Pods_Video.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1C1E344A1F00B61B00D007E7 = {
 			isa = PBXGroup;
 			children = (
+				1C29A98E1F01F231009E8D39 /* PrefixHeader.pch */,
 				1C1E34551F00B61B00D007E7 /* Video */,
 				1C1E346F1F00B61C00D007E7 /* VideoTests */,
 				1C1E347A1F00B61C00D007E7 /* VideoUITests */,
 				1C1E34541F00B61B00D007E7 /* Products */,
+				93847790FFE38887F91A7F48 /* Pods */,
+				02990C7A9C5F5AF45BEC8F7D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +203,10 @@
 				1C1E34621F00B61B00D007E7 /* Assets.xcassets */,
 				1C1E34641F00B61B00D007E7 /* LaunchScreen.storyboard */,
 				1C1E34671F00B61B00D007E7 /* Info.plist */,
+				1C64280E1F2ECB06001ED72F /* WebWithHeader */,
+				1C6428071F2EC9C8001ED72F /* ScrollAndTable */,
+				1C6427F81F2EC971001ED72F /* TagView */,
+				1C29A95E1F01EE7B009E8D39 /* ShowBar */,
 				1C1E34561F00B61B00D007E7 /* Supporting Files */,
 			);
 			path = Video;
@@ -140,6 +238,120 @@
 			path = VideoUITests;
 			sourceTree = "<group>";
 		};
+		1C29A95E1F01EE7B009E8D39 /* ShowBar */ = {
+			isa = PBXGroup;
+			children = (
+				1C29A9861F01EEA7009E8D39 /* controller */,
+				1C29A9851F01EE9D009E8D39 /* model */,
+				1C29A9841F01EE92009E8D39 /* viewModel */,
+				1C29A9831F01EE8C009E8D39 /* view */,
+			);
+			path = ShowBar;
+			sourceTree = "<group>";
+		};
+		1C29A9831F01EE8C009E8D39 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				1C29A98C1F01EFFC009E8D39 /* PlaceholderTextView.h */,
+				1C6427F51F2EC6AF001ED72F /* PlaceholderTextView.m */,
+				1C29A9871F01EF35009E8D39 /* CircleCommentView.h */,
+				1C29A9881F01EF35009E8D39 /* CircleCommentView.m */,
+				1C29A9891F01EF35009E8D39 /* CircleCommentView.xib */,
+				1C29A9721F01EE7B009E8D39 /* SubCommentTableViewCell.h */,
+				1C29A9731F01EE7B009E8D39 /* SubCommentTableViewCell.m */,
+				1C29A9741F01EE7B009E8D39 /* SubCommentTableViewCell.xib */,
+				1C29A96B1F01EE7B009E8D39 /* FindShowBarLiveTableViewCell.h */,
+				1C29A96C1F01EE7B009E8D39 /* FindShowBarLiveTableViewCell.m */,
+				1C29A96D1F01EE7B009E8D39 /* FindShowBarLiveTableViewCell.xib */,
+				1C29A9691F01EE7B009E8D39 /* FindShowBarFlowLayout.h */,
+				1C29A96A1F01EE7B009E8D39 /* FindShowBarFlowLayout.m */,
+				1C29A9621F01EE7B009E8D39 /* FindShowBarCommentTableViewCell.h */,
+				1C29A9631F01EE7B009E8D39 /* FindShowBarCommentTableViewCell.m */,
+				1C29A9641F01EE7B009E8D39 /* FindShowBarCommentTableViewCell.xib */,
+				1C29A9651F01EE7B009E8D39 /* FindShowBarDetialHeader.xib */,
+				1C29A95F1F01EE7B009E8D39 /* FindShowBarCollectionViewCell.h */,
+				1C29A9601F01EE7B009E8D39 /* FindShowBarCollectionViewCell.m */,
+				1C29A9611F01EE7B009E8D39 /* FindShowBarCollectionViewCell.xib */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		1C29A9841F01EE92009E8D39 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = viewModel;
+			sourceTree = "<group>";
+		};
+		1C29A9851F01EE9D009E8D39 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				1C29A9701F01EE7B009E8D39 /* ShowBarCommentModel.h */,
+				1C29A9711F01EE7B009E8D39 /* ShowBarCommentModel.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		1C29A9861F01EEA7009E8D39 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				1C29A9661F01EE7B009E8D39 /* FindShowBarDetialViewController.h */,
+				1C29A9671F01EE7B009E8D39 /* FindShowBarDetialViewController.m */,
+				1C29A9681F01EE7B009E8D39 /* FindShowBarDetialViewController.xib */,
+				1C29A96E1F01EE7B009E8D39 /* FindShowbarViewController.h */,
+				1C29A96F1F01EE7B009E8D39 /* FindShowbarViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		1C6427F81F2EC971001ED72F /* TagView */ = {
+			isa = PBXGroup;
+			children = (
+				1C6427F91F2EC971001ED72F /* LabelItemCollectionViewCell.h */,
+				1C6427FA1F2EC971001ED72F /* LabelItemCollectionViewCell.m */,
+				1C6427FB1F2EC971001ED72F /* LabelItemCollectionViewCell.xib */,
+				1C6427FC1F2EC971001ED72F /* LeftAlignmentFlowout.h */,
+				1C6427FD1F2EC971001ED72F /* LeftAlignmentFlowout.m */,
+				1C6427FE1F2EC971001ED72F /* TagCollectionViewController.h */,
+				1C6427FF1F2EC971001ED72F /* TagCollectionViewController.m */,
+				1C6428001F2EC971001ED72F /* TagViewViewController.h */,
+				1C6428011F2EC971001ED72F /* TagViewViewController.m */,
+			);
+			path = TagView;
+			sourceTree = "<group>";
+		};
+		1C6428071F2EC9C8001ED72F /* ScrollAndTable */ = {
+			isa = PBXGroup;
+			children = (
+				1C6428081F2EC9E4001ED72F /* ScrollAndTableViewController.h */,
+				1C6428091F2EC9E4001ED72F /* ScrollAndTableViewController.m */,
+			);
+			path = ScrollAndTable;
+			sourceTree = "<group>";
+		};
+		1C64280E1F2ECB06001ED72F /* WebWithHeader */ = {
+			isa = PBXGroup;
+			children = (
+				1C6428171F2EE2AA001ED72F /* file.html */,
+				1C6428181F2EE2AA001ED72F /* myH5.html */,
+				1C64280F1F2ECB06001ED72F /* WebWithHeaderViewController.h */,
+				1C6428101F2ECB06001ED72F /* WebWithHeaderViewController.m */,
+				1C6428121F2ECBB0001ED72F /* WebHeaderView.h */,
+				1C6428131F2ECBB0001ED72F /* WebHeaderView.m */,
+				1C6428151F2ECBC7001ED72F /* WebHeaderView.xib */,
+			);
+			path = WebWithHeader;
+			sourceTree = "<group>";
+		};
+		93847790FFE38887F91A7F48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00B8F3C9306DBB1B8BE5E0D1 /* Pods-Video.debug.xcconfig */,
+				AFD49EE39962597F41458EBB /* Pods-Video.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +359,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C1E34801F00B61C00D007E7 /* Build configuration list for PBXNativeTarget "Video" */;
 			buildPhases = (
+				8ED1D511CEB8188989146819 /* [CP] Check Pods Manifest.lock */,
 				1C1E344F1F00B61B00D007E7 /* Sources */,
 				1C1E34501F00B61B00D007E7 /* Frameworks */,
 				1C1E34511F00B61B00D007E7 /* Resources */,
+				614997B9131143C057C9CFFC /* [CP] Embed Pods Frameworks */,
+				60C3DF2410F990643496F15F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +422,7 @@
 				TargetAttributes = {
 					1C1E34521F00B61B00D007E7 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = U99WM52CR7;
 						ProvisioningStyle = Automatic;
 					};
 					1C1E346B1F00B61C00D007E7 = {
@@ -246,8 +462,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C29A98B1F01EF35009E8D39 /* CircleCommentView.xib in Resources */,
+				1C29A9761F01EE7B009E8D39 /* FindShowBarCollectionViewCell.xib in Resources */,
+				1C29A97B1F01EE7B009E8D39 /* FindShowBarDetialViewController.xib in Resources */,
+				1C6428031F2EC971001ED72F /* LabelItemCollectionViewCell.xib in Resources */,
 				1C1E34661F00B61B00D007E7 /* LaunchScreen.storyboard in Resources */,
+				1C29A9821F01EE7B009E8D39 /* SubCommentTableViewCell.xib in Resources */,
 				1C1E34631F00B61B00D007E7 /* Assets.xcassets in Resources */,
+				1C64281A1F2EE2AA001ED72F /* myH5.html in Resources */,
+				1C29A9791F01EE7B009E8D39 /* FindShowBarDetialHeader.xib in Resources */,
+				1C6428191F2EE2AA001ED72F /* file.html in Resources */,
+				1C6428161F2ECBC7001ED72F /* WebHeaderView.xib in Resources */,
+				1C29A9781F01EE7B009E8D39 /* FindShowBarCommentTableViewCell.xib in Resources */,
+				1C29A97E1F01EE7B009E8D39 /* FindShowBarLiveTableViewCell.xib in Resources */,
 				1C1E34611F00B61B00D007E7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,14 +495,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		60C3DF2410F990643496F15F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Video/Pods-Video-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		614997B9131143C057C9CFFC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Video/Pods-Video-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ED1D511CEB8188989146819 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1C1E344F1F00B61B00D007E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C29A9751F01EE7B009E8D39 /* FindShowBarCollectionViewCell.m in Sources */,
+				1C6428051F2EC971001ED72F /* TagCollectionViewController.m in Sources */,
 				1C1E345E1F00B61B00D007E7 /* ViewController.m in Sources */,
+				1C29A9801F01EE7B009E8D39 /* ShowBarCommentModel.m in Sources */,
 				1C1E345B1F00B61B00D007E7 /* AppDelegate.m in Sources */,
+				1C64280A1F2EC9E4001ED72F /* ScrollAndTableViewController.m in Sources */,
+				1C6428041F2EC971001ED72F /* LeftAlignmentFlowout.m in Sources */,
+				1C6427F61F2EC6AF001ED72F /* PlaceholderTextView.m in Sources */,
+				1C29A97D1F01EE7B009E8D39 /* FindShowBarLiveTableViewCell.m in Sources */,
+				1C29A97F1F01EE7B009E8D39 /* FindShowbarViewController.m in Sources */,
+				1C6428111F2ECB06001ED72F /* WebWithHeaderViewController.m in Sources */,
+				1C29A98A1F01EF35009E8D39 /* CircleCommentView.m in Sources */,
+				1C6428141F2ECBB0001ED72F /* WebHeaderView.m in Sources */,
+				1C29A97C1F01EE7B009E8D39 /* FindShowBarFlowLayout.m in Sources */,
 				1C1E34581F00B61B00D007E7 /* main.m in Sources */,
+				1C6428061F2EC971001ED72F /* TagViewViewController.m in Sources */,
+				1C29A9811F01EE7B009E8D39 /* SubCommentTableViewCell.m in Sources */,
+				1C29A9771F01EE7B009E8D39 /* FindShowBarCommentTableViewCell.m in Sources */,
+				1C6428021F2EC971001ED72F /* LabelItemCollectionViewCell.m in Sources */,
+				1C29A97A1F01EE7B009E8D39 /* FindShowBarDetialViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,8 +716,12 @@
 		};
 		1C1E34811F00B61C00D007E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00B8F3C9306DBB1B8BE5E0D1 /* Pods-Video.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U99WM52CR7;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Video/PrefixHeader.pch;
 				INFOPLIST_FILE = Video/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.linqingmo.Video;
@@ -435,8 +731,12 @@
 		};
 		1C1E34821F00B61C00D007E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFD49EE39962597F41458EBB /* Pods-Video.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U99WM52CR7;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Video/PrefixHeader.pch;
 				INFOPLIST_FILE = Video/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.linqingmo.Video;
@@ -509,6 +809,7 @@
 				1C1E34821F00B61C00D007E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C1E34831F00B61C00D007E7 /* Build configuration list for PBXNativeTarget "VideoTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +818,7 @@
 				1C1E34851F00B61C00D007E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C1E34861F00B61C00D007E7 /* Build configuration list for PBXNativeTarget "VideoUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +827,7 @@
 				1C1E34881F00B61C00D007E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
